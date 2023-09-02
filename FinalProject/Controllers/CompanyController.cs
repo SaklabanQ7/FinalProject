@@ -75,7 +75,7 @@ namespace FinalProject.Controllers
             else 
             {
                 if (@event != null)
-                    return NotFound("event not found");
+                    return NotFound("event not found.");
                 return BadRequest("this ticket already created.");
             }
 
